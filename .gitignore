@@ -1,0 +1,206 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Churn
+.vscode/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# DotNet Console and tool settings file
+.dotnet_tools/
+
+# Visual Studio Code configuration
+.vscode/
+
+# User-specific files (Mono Auto Generated Files)
+mono_crash.*
+
+# Azure Pipelines
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+
+# User-specific files (Mono Auto Generated Files)
+mono_crash.*
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# ASP.NET temporary files
+.vscode/
+*.sln.docstates
+[Dd]ebugPS/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Programs folder
+Programs/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Visual Studio Code configuration
+.vscode/
+
+# User-specific files (Mono Auto Generated Files)
+mono_crash.*
+
+# Rider
+.idea/
+*.sln.iml
+
+# DotNet Console and tool settings file
+.dotnet_tools/
+
+# ASP.NET temporary files
+.vscode/
+*.sln.docstates
+[Dd]ebugPS/
+
+# User-specific files (Mono Auto Generated Files)
+mono_crash.*
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# DotNet Console and tool settings file
+.dotnet_tools/
+
+# User-specific files (Mono Auto Generated Files)
+mono_crash.*
+
+# Rider
+.idea/
+*.sln.iml
+
+# DotNet Console and tool settings file
+.dotnet_tools/
+
+# ASP.NET temporary files
+.vscode/
+*.sln.docstates
+[Dd]ebugPS/
+
+# User-specific files (Mono Auto Generated Files)
+mono_crash.*
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Entity Framework
+*.edmx
+*.edmx.diagram
+*.edmx.sql
+
+# PowerShell
+*.ps1
+
+# Resharper
+_ReSharper.Caches
+ReSharperHost
+
+# Sonar
+.sonar
+/.sonarqube
+
+# StyleCop
+.stylecop
+
+# Code Coverage Results
+*.coverage
+*.coveragexml
+coverage.info
+
+# Transient
+*~
+
+# Web specific
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+node_modules/
+bower_components/
+
+# Yarn
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.pnp.*
