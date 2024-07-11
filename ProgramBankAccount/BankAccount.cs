@@ -1,6 +1,4 @@
 ﻿
-using System.Globalization;
-
 namespace ProgramBankAccout
 {
     class BankAccount
@@ -26,11 +24,6 @@ namespace ProgramBankAccout
             return $"Account Holder: {AccountHolder}\nAccount Number: {AccountNumber}\nBalance: {Balance.ToString("C")}";
         }
 
-        public void RegisterName(string name)
-        {
-            AccountHolder = name;
-        }
-
         public void Deposit(double amount)
         {
             Balance += amount;
@@ -38,8 +31,7 @@ namespace ProgramBankAccout
 
         internal void Withdrawal(double withdrawal)
         {
-            Balance -= withdrawal;
-            Balance -= 5;
+            Balance -= withdrawal + 5;
         }
     }
 }
