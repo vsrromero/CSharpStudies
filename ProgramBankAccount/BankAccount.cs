@@ -1,7 +1,7 @@
 ﻿
-namespace ProgramBankAccout
+namespace ProgramBankAccount
 {
-    class BankAccount
+    public class BankAccount
     {
 
         public string AccountHolder { get; set;}
@@ -14,9 +14,9 @@ namespace ProgramBankAccout
             AccountNumber = accountNumber;
         }
 
-        public BankAccount(string accountHolder, int accountNumber, double balance) : this(accountHolder, accountNumber)
+        public BankAccount(string accountHolder, int accountNumber, double initialDeposit) : this(accountHolder, accountNumber)
         {
-            Balance = balance;
+            Deposit(initialDeposit);
         }
                 
         public override string ToString()
@@ -24,14 +24,27 @@ namespace ProgramBankAccout
             return $"Account Holder: {AccountHolder}\nAccount Number: {AccountNumber}\nBalance: {Balance.ToString("C")}";
         }
 
+        private double CheckPositiveValue(double value)
+        {
+            if (value < 0)
+            {
+                throw new ArgumentException("Internal error! The amount can not be negative");
+            }
+
+            return value;
+        }
+
         public void Deposit(double amount)
         {
-            Balance += amount;
+            double depositAmount = CheckPositiveValue(amount);
+            Balance += depositAmount;
+            
         }
 
         internal void Withdrawal(double withdrawal)
         {
-            Balance -= withdrawal + 5;
+            double withdrawalAmount = CheckPositiveValue(withdrawal);
+            Balance -= withdrawalAmount + 5;
         }
     }
 }
